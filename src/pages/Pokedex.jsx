@@ -4,7 +4,7 @@ import { useMemo } from "react";
 import { useEffect } from "react";
 import { useSelector } from "react-redux";
 import Header from "../components/pokedex/Header";
-import PokemonCard from "../components/pokedex/pokemonCard"; 
+import PokemonCard from "../components/pokedex/PokemonCard"; 
 import { paginationLogic } from "../utils/pagination";
 
 const Pokedex = () => {
